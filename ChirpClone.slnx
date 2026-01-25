@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="chirpclone.client/chirpclone.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="ChirpClone.Server/ChirpClone.Server.csproj" />
+</Solution>
