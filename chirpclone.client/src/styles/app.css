@@ -1,0 +1,96 @@
+.chirp-center {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    min-height: 100vh;
+}
+
+.chirp-header {
+    font-weight: 800;
+    font-size: 18px;
+    padding: 14px 12px;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 10;
+}
+
+.chirp-logo {
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+}
+
+.chirp-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chirp-navlink {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 999px;
+    display: inline-block;
+}
+
+    .chirp-navlink:hover {
+        background: #f4f4f4;
+    }
+
+    .chirp-navlink.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+.avatar-sm {
+    width: 36px;
+    height: 36px;
+    border-radius: 999px;
+    background: #ddd;
+}
+
+.avatar-md {
+    width: 44px;
+    height: 44px;
+    border-radius: 999px;
+    background: #ddd;
+}
+
+.chirp-textarea {
+    resize: none;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.chirp-icons .btn {
+    border-radius: 999px;
+}
+
+.chirp-feedback {
+    border: 1px solid #eee;
+    border-radius: 14px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background: #fafafa;
+}
+
+.chirp-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.chirp-modal {
+    width: 520px;
+    max-width: calc(100vw - 24px);
+    border-radius: 18px;
+}
