@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ChirpClone.Server.Migrations
 {
     [DbContext(typeof(ChirpDbContext))]
-    [Migration("20260130051920_initialmigration")]
-    partial class initialmigration
+    [Migration("20260218202856_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
